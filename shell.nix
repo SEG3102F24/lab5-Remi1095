@@ -12,6 +12,7 @@ mkShell {
     nodejs
     nodePackages.npm
     nodePackages."@angular/cli"
+    firebase-tools
   ];
   CHROME_BIN="google-chrome-stable";
 }
